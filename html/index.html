@@ -4,7 +4,7 @@
 		<title>Loading...</title>
 
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-		<link rel="stylesheet" type="text/css" href="common/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="css/main.css" />
 		<link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
 	</head>
 
@@ -14,11 +14,11 @@
 			
 		</div>
 
-		<script src="common/js/trianglify.min.js"></script>
+		<script src="js/trianglify.min.js"></script>
 		<script>
 			var request = new XMLHttpRequest();
 			request.overrideMimeType("application/json");
-			request.open("GET", 'config.json');
+			request.open("GET", '../config.json');
 			request.onload = function () {
 				if (request.status >= 200 && request.status < 400) {
 					var config = JSON.parse(this.response);
@@ -29,7 +29,7 @@
 					var hostname = window.location.hostname
 					for (var i = 0; i < config.items.length; i++) {
 						var item = config.items[i];
-						itemlistHTML += '<div class="box"><div class="img"><a href="http://'+hostname+':'+item.link+'" target="_blank"><img src="./common/icos/'+item.icon+'"/></a></div><p>'+item.alt+'</p></div>';
+						itemlistHTML += '<div class="box"><div class="img"><a href="http://'+hostname+':'+item.link+'" target="_blank"><img src="icos/'+item.icon+'"/></a></div><p>'+item.alt+'</p></div>';
 					}
 					console.log(itemlistHTML);
 					document.getElementById("Clist").innerHTML = itemlistHTML;
