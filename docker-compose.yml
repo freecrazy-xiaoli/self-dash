@@ -4,6 +4,6 @@ services:
     container_name: dash
     restart: always
     ports:
-      - 3211:80
+      - 5912:80
     volumes:
       - ./config.json:/usr/local/dash/config.json
