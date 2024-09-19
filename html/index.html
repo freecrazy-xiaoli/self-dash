@@ -26,10 +26,9 @@
 					document.title = config.title;
 
 					var itemlistHTML = '';
-					var hostname = window.location.hostname
 					for (var i = 0; i < config.items.length; i++) {
 						var item = config.items[i];
-						itemlistHTML += '<div class="box"><div class="img"><a href="http://'+config.url+':'+item.link+'" target="_blank"><img src="icos/'+item.icon+'"/></a></div><p>'+item.alt+'</p></div>';
+						itemlistHTML += '<div class="box"><div class="img"><a href="http://'+config.hostname+':'+item.link+'" target="_blank"><img src="icos/'+item.icon+'"/></a></div><p>'+item.alt+'</p></div>';
 					}
 					console.log(itemlistHTML);
 					document.getElementById("Clist").innerHTML = itemlistHTML;
