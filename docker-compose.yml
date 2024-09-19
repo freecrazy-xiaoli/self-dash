@@ -1,0 +1,9 @@
+services:
+  dash:
+    image: dash
+    container_name: dash
+    restart: always
+    ports:
+      - 3211:80
+    volumes:
+      - ./config.json:/usr/local/dash/config.json
