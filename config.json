@@ -1,26 +1,25 @@
 {
 	"title" : "癫狂傲骨备用服务器",
-	"hostname" : "self.freecrazy.life",
 	"items" : [
 		{
 			"alt" : "lobeChat",
 			"icon" : "lobechat.webp",
-			"link" : "3210"
+			"port" : "3210"
 		},
 		{
 			"alt" : "lsky",
 			"icon" : "alma.webp",
-			"link" : "3212"
+			"port" : "3212"
 		},
 		{
 			"alt" : "qinglong",
 			"icon" : "wireguard.webp",
-			"link" : "3213"
+			"port" : "3213"
 		},
 		{
 			"alt" : "v2rayA",
 			"icon" : "virtualradarserver.webp",
-			"link" : "2024"
+			"port" : "2024"
 		}
 		
 	]
