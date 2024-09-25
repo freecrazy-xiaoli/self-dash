@@ -17,6 +17,8 @@
 
 		<script src="js/trianglify.min.js"></script>
 		<script>
+			var local = window.location.hostname
+			document.getElementById("hostname").value = local;
 			var request = new XMLHttpRequest();
 			request.overrideMimeType("application/json");
 			request.open("GET", '../config.json');
