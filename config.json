@@ -1,26 +1,40 @@
 {
-	"title" : "癫狂傲骨备用服务器",
+	"title" : "癫狂傲骨服务器",
 	"items" : [
 		{
-			"alt" : "lobeChat",
-			"icon" : "lobechat.webp",
-			"port" : "3210"
-		},
-		{
-			"alt" : "lsky",
-			"icon" : "alma.webp",
-			"port" : "3212"
+			"alt" : "syncthing",
+			"icon" : "syncthing.webp",
+			"port" : "8384"
 		},
 		{
 			"alt" : "qinglong",
 			"icon" : "wireguard.webp",
-			"port" : "3213"
+			"port" : "6061"
 		},
 		{
-			"alt" : "v2rayA",
-			"icon" : "virtualradarserver.webp",
-			"port" : "2024"
-		}
-		
+			"alt" : "filebrowser",
+			"icon" : "filebrowser.webp",
+			"port" : "6066"
+		},
+		{
+			"alt" : "aria",
+			"icon" : "ariang.webp",
+			"port" : "6062"
+		},
+		{
+			"alt" : "v2raya",
+			"icon" : "cockpit.webp",
+			"port" : "2022"
+		},
+		{
+			"alt" : "photoprism",
+			"icon" : "photoprism.webp",
+			"port" : "6064"
+		},
+		{
+			"alt" : "webssh",
+			"icon" : "duplicati.webp",
+			"port" : "6065"
+		},
 	]
 }
