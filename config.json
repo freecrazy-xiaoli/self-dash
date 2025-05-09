@@ -36,5 +36,10 @@
 			"icon" : "duplicati.webp",
 			"port" : "6065"
 		},
+		{
+			"alt" : "minio",
+			"icon" : "minio.webp",
+			"port" : "9001"
+		},
 	]
 }
